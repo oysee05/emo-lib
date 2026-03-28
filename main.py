@@ -94,4 +94,6 @@ def log_chat(session_id, query, response, is_crisis):
             response,
             is_crisis
         ])
+        pip install fastapi uvicorn python-dotenv langchain openai
+        uvicorn main:app --reload
       
